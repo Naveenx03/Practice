@@ -42,4 +42,8 @@ class Stack{
     public boolean isEmpty(){
         return top == -1;
     }
+
+    public int len(){
+        return maxSize;
+    }
 }
