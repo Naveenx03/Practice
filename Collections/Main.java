@@ -20,7 +20,7 @@ class Main{
             int b = ins2.pop();
             output.push(a+b);
         }
-
+        System.out.println("Program 1");
         output.display();
         System.out.println();
 
@@ -45,6 +45,7 @@ class Main{
             ouput.push(a);
             ouput.push(b);
         }
+        System.out.println("Program 2");
         ouput.display();
         System.out.println();
         Stack st1 = new Stack(5);
@@ -78,6 +79,7 @@ class Main{
         while(!out.isEmpty()){
             res.push(out.pop());
         }
+        System.out.println("Program 3");
         res.display();
         System.out.println();
         Stack c1 = new Stack(3);
@@ -111,6 +113,7 @@ class Main{
             result.push(c1.pop());
             result.push(c2.pop());
         }
+        System.out.println("Program 4");
         result.display();
     }
 }
