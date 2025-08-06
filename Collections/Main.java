@@ -22,5 +22,30 @@ class Main{
         }
 
         output.display();
+        System.out.println();
+
+        Stack s1=new Stack(5);
+        Stack s2= new Stack(5);
+        Stack ouput=new Stack(10);
+        s1.push(2);
+        s1.push(4);
+        s1.push(6);
+        s1.push(8);
+        s1.push(10);
+        s2.push(1);
+        s2.push(3);
+        s2.push(5);
+        s2.push(7);
+        s2.push(9);
+
+        while(!s1.isEmpty() && !s2.isEmpty())
+        {
+            int a=s1.pop();
+            int b= s2.pop();
+            ouput.push(a);
+            ouput.push(b);
+        }
+        ouput.display();
+
     }
 }
